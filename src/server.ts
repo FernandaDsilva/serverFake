@@ -57,11 +57,13 @@ const schema = gql`
     id: ID
     title: String!
     artist: String!
+    image: String!
   }
   type Music {
     id: ID!
     title: String!
     artist: String!
+    image: String!
   }
   type Query {
     musics: [Music!]!
